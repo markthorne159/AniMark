@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<!-- Tips and Tutorials -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src = "Scripts/Main.js"></script>
+
+<link rel= "stylesheet" href= "BaseCss.css">
+
+<style>
+
+.MouseOver{
+	color: blue;
+}
+
+</style>
+
+
+</head>
+
+<body bgcolor="#aeb0b2">
+
+<!-- Maybe change size? -->
+<a href = "https://markthorne159.github.io/AniMark/index.html">
+<img id = "Home" onclick = "Load(this.id)" src = "Images/Logo.png" width = "200" height = "200">
+</a>
+<!-- Maybe change size? -->
+
+<nav>
+<a id = "OpA" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Languages|</a> 
+<a id = "OpB" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Tutorials|</a> 
+<a id = "OpC" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Resources|</a>
+<a id = "OpD" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">General</a>
+</nav>
+
+
+<h1>Functions<h1>
+
+<div>
+
+<p id = "Intro">
+Functions are a key part in any programming language and can be used in multiple ways.<br>One of the most common uses of a function is to carry out a certain section of code each time the function is called.<br> <br>
+
+A simple example of this is shown below: <br>
+</p>
+
+<!-- Function example -->
+<img id = "Image" src = "Images/NormalLog.png" width = "400" height = "400">
+<img id = "Image" src = "Images/FunctionLog.png" width = "400" height = "400">
+<!-- Function example -->
+
+<p id = "Intro">
+The two examples above show the difference between not using a function and using a function in a script.<br> Image A shows the code without the function, code is often read and executed line by line. Without the use of functions <br> you would have to write the same lines of code over and over again in order for them to execute. <br> This could potentially result in you having a lot of unnecessary lines of code in your scripts.<br>Fortunately this can be avoided with use of functions. Image B shows the use of a simple function with a "for loop" as it's lines of code.<br> Once this function is created it can be called an unlimited amount of times simply by typing the name of the function followed by "()". <br> 
+Whenever the code hits the call to the function it will jump to the function, carry out any instructions inside of it and then jump back <br> to the main code and carry on from when the function was first hit. From there onwards you can call back to the function and the code <br> will always carry it out before carrying on to the next line of code. Using a function to carry out different instructions <br> not only means you only need to write the code once but also makes your code tidier and easier to read. Most programming languages <br> also enable you to write functions in their own file and then reference and access them with a single line of code.<br>
+</p>
+
+<p id = "Intro">
+Functions can also be given arguments or variables to perform instructions on.<br>
+For example look at the function example below:<br>
+</p>
+
+<!-- Function with variable -->
+<img id = "Image" src = "Images/FunctionVariable.png" width = "400", height = "400">
+<!-- Function with variable -->
+
+<p id = "Intro">You may notice that this function looks pretty much the same as the previous example.<br> The only differences are the 'N' in the brackets after the function name and the '2' in the brackets at the bottom of the code.<br> This version of the function shows how you can send variables to functions, in this instance the '2' in the brackets of the function call,<br> this variable will then take the place of the 'N' in the brackets in the function and the function will carry out all of the instructions<br> that have the letter 'N' as one of the parameters, in this case it will multiply the value of 'N' 10 times and print each answer to the console.<br> </p>
+
+
+</div>
+
+
+</body>
+</html>

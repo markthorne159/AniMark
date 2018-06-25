@@ -1,0 +1,36 @@
+#Title{
+	font-size: 100px;
+	font-family: Arial;
+}
+
+#SubTitle{
+	text-decoration: underline;
+}
+
+#SubEntry{
+	font-size: 12px;
+	font-family: Arial;
+}
+
+#Intro{
+	font-size: 15px;
+	font-family: Arial;
+}
+
+span{
+	background-color: black;
+	font-family: Arial;
+	padding-left: 20px;
+}
+
+nav{
+	background-color: black;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+#NavBar{
+	outline-style: outset;
+	border-style: solid;
+	border-width: 10px;
+}
