@@ -1,8 +1,8 @@
 function Load(Id){
-	if(Id == "OpA"){
+	if(Id == "OpE"){
 		e = document.getElementById(Id);
 		e.style.color = "blue";
-		console.log("OpA clicked!");
+		console.log("OpE clicked!");
 		location.replace("https://markthorne159.github.io/AniMark/ProgrammingDict/index.html");
 	}
 	else {
