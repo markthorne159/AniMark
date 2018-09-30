@@ -3,7 +3,7 @@ function Load(Id){
 		e = document.getElementById(Id);
 		e.style.color = "blue";
 		console.log("OpA clicked!");
-		location.replace("https://markthorne159.github.io/AniMark/index.html");
+		location.replace("https://markthorne159.github.io/AniMark/ProgrammingDict/index.html");
 	}
 	else {
 		console.log("Different option.");
@@ -14,12 +14,4 @@ function Load(Id){
 function MainColour(Id){
 	e = document.getElementById(Id);
 		e.style.color = "white";
-}
-
-function Focus(Id){
-	Target = document.getElementById(Id);
-	Text = Target.innerHTML;
-	console.log(Text);
-	Title = document.getElementById(Text);
-    Title.scrollIntoView();
 }

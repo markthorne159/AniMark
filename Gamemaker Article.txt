@@ -1,0 +1,28 @@
+Gamemaker Studio is a 2d game engine that enables you to create and code your own games. The drag and drop code interface is an excellent starting point for those who are new to code and anyone who has experience with code can use Gamemakers built in code base to write their own scripts.
+
+I know lots of people start off learning game development by using Scratch and Gamemaker seemed like the next step for anyone looking to take the next step in game development. This article aims to introduce you to the basics of Gamemaker and how to get started with your first simple game. The aim of the game will be simple, catch the falling objects and avoid the hazards.
+
+Sidenote: Due to the fact I have a couple of projects I'm currently working on I've yet to upgrade to Gamemaker Studio 2 from the latest version of the original Gamemaker (Gamemaker 1.4),therefore some features I've written about may work differently or be located somewhere else in Gamemaker 2.
+
+Getting Started
+
+Before you start doing anything in Gamemaker there are two specific areas you need to become familiar with. On the left side of the screen you will see a series of icons each of which corresponds to their own folder. For the time being the only folders you need to pay any attention to are the 'Sprites' and 'Objects' folders. These are the two folders you will be using the most in Gamemaker. 
+
+(Image highlighting 'Sprites' and 'Objects' folders)
+
+The first of these two folders you need to look at is the 'Sprites' folder. This folder will contain all of the 'images' that will be used in your game. The second folder, 'Objects', is the folder that holds all of your games objects as such as the player,enemies and items. The objects in this folder can be edited enabling you to add code and events to control how each object behaves in game. 
+
+To start off, right click on the 'Sprite' folder and create a sprite called "Spr_Player". This sprite will be used to represent your player in the game. Using the sprite editor tools draw something to represent your player and click the tick icon in the top left corner to save your sprite. Once you've created your sprite right click on 'Objects' folder and create a new object and name it something like 'Obj_Player'.
+
+(image of create new object menu here.)
+
+Once the object is created you need to assign a sprite to it. Without assigning a sprite to the object there will be nothing for the game to render and result in the object being invisible. Underneath the name of the object there should be a box that says 'no sprite' , clicking on this box or the small white icon next to the box will bring up an extra menu showing you a list of the sprites you have available to assign to this object. Click on the 'Spr_Player' sprite you made earlier to assign the sprite to the player object.
+
+(adding and assigning sprite image)
+
+Now you have created your player the next step is to create a level to put it in. In the same toolbar as where you made the sprite and object there is another folder labelled "Rooms". Right click on the folder and select the "Create room" option from the new drop down menu. On creation the rooms size is preset to 1024x768, you can leave this as it is if you want or change it to a smaller size such as 640x480. Once you've set the size of your room you need to switch over to the "Views" tab.
+
+(View screen image)
+
+From here you can set how much of the room you can see on screen at any time. Before changing any of the values on the screen make sure you click the "Enable the use of Views" box at the top of the screen and click the "Visible when room starts" box to ensure that the view is correct once you start the game. A good starting point is to keep the values of the view set to the same as the same values as the ones for the room size, with this in mind change the dimensions of your room to 640x480 and set the view to the same dimensions, this will create a nice sized game window that fits on the screen and having the view set to the same size will ensure that you can see everything that is going on in the room.
+

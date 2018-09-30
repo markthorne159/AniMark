@@ -4,16 +4,7 @@
 }
 
 #Intro{
-	font-size: 13px;
-	font-family: Arial;
-}
-
-#STitle{
-	text-decoration: underline;
-}
-
-#ListEntryA  #ListEntryB{ 
-	font-size: 17px;
+	font-size: 15px;
 	font-family: Arial;
 }
 
