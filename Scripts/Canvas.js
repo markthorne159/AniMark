@@ -2,7 +2,7 @@ var CVS = document.getElementById("Main");
 
 var PageContent = 
 
-var Text = [" ","Line1"]
+var Text = [" ","Line1"];
 var y = 70
 
 var ctx = CVS.getContext("2d");
