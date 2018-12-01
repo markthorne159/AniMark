@@ -3,19 +3,20 @@
 <html>
 
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<!-- Tips and Tutorials -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src = "Scripts/Main.js"></script>
 
 <link rel= "stylesheet" href= "BaseCss.css">
 
 <style>
-#Content{
-margin: auto;
-width: 50%;
-padding-top: 10px;
+
+.MouseOver{
+	color: blue;
 }
+
 </style>
+
 
 </head>
 
@@ -27,31 +28,24 @@ padding-top: 10px;
 </a>
 <!-- Maybe change size? -->
 
-<nav id = "NavBar"> 
+<nav>
 <a id = "OpA" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Languages|</a> 
 <a id = "OpB" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Tutorials|</a> 
 <a id = "OpC" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Resources|</a>
-<a id = "OpD" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">General|</a>
-<a id = "OpE" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Programming Dictionary</a>
 </nav>
 
-<div id = "Content">
-<canvas id = "Main" width = "700" height = "3000" style="border:3px solid #000000;">
+<h1>Python: Variables and Functions</h1>
+
+<p class = "Content">
+Variables are something you'll use a lot when programming and they come in a variety of data types. Follow this tutorial to learn how each of them are used and how they are different from one another.<br>
+This tutorial will also introduce you to the concept of functions and how they are used. By the end of this tutorial you will have created your own rock,paper,scissors game
+</p>
+
+<canvas id = "ContentCanvas" width = screen.width height = 1500 style="border:1px solid #000000;">
 </canvas>
-</div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-<script src = "Scripts/Canvas.js"></script>
-<body>
+</body>
 </html>

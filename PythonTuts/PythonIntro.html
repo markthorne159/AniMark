@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<!-- Tips and Tutorials -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel= "stylesheet" href= "BaseCss.css">
+
+<style>
+
+.MouseOver{
+	color: blue;
+}
+
+</style>
+
+
+</head>
+
+<body bgcolor="#aeb0b2">
+
+<!-- Maybe change size? -->
+<a href = "https://markthorne159.github.io/AniMark/index.html">
+<img id = "Home" onclick = "Load(this.id)" src = "Images/Logo.png" width = "200" height = "200">
+</a>
+<!-- Maybe change size? -->
+
+<nav>
+<a id = "OpA" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Languages|</a> 
+<a id = "OpB" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Tutorials|</a> 
+<a id = "OpC" style = "color: white" onmousedown = "Load(this.id)" onmouseup = "MainColour(this.id)">Resources|</a>
+</nav>
+
+<h1>Python: Introduction</h1>
+<div id = "Box">
+<p class = "Content">
+Of all of the available programming languages Python has to be one of the simplest to get started with.<br>
+This purpose of this tutorial is to introduce you to the basics of Python. This includes installing and setting up Python on your machine,<br>
+an introduction to variables and data types in Python, how to structure functions in Python and most importantly, showing you how to write your first program.<br>
+<br>
+<h>Downloading and Installing of Python</h><br>
+<br>
+
+Before you can do any sort of programming you need to download and install Python.<br> 
+Click on the link below to open up Python.org and click on the button highlighted in the image to download the latest version of Python.<br>
+<br>
+<a href = "https://www.python.org/downloads/">Download Python</a><br>
+<br>
+
+<img src = "Images/PythonDownload.png" width = "800" height = "400"><br>
+<br>
+
+During the installation you will be presented with a screen that gives you a selection of options to "Customize" your Python installation.<br>
+In order to make using Python easier click on the option that says "Add python.exe to Path."<br>
+This option will ensure that whenever you want to install new libraries with "pip" Windows will recognise this as a valid command.<br>
+Once Python has finished installing it's time to start writing your own code. Create a new folder somewhere on your computer to store your code in and create a new file called "Hello_World.py".<br>
+Right click on the file you've created and click on the option that reads "Edit with IDLE".<br>
+This option will open up the file in Pythons IDLE editor. Whilst you could just as easily open up and edit the file in something like Notepad or Notepad++ ,however as IDLE<br>
+is Pythons main editor it includes a variety of different helpful features as such as syntax highlighting,which makes it easier to understand if your code is written correctly and automatic indentation which is something you will later become incredibly grateful for.<br>
+<br>
+
+Clicking on the option to open with IDLE will cause a blank window to pop up.<br>
+<br>
+
+<img src =  "Images/IDLEExample.png" width = "400" height = "400">
+<br>
+
+This is the IDLE editor and, more often than not, will be where you write the majority of your code.<br>
+Now it's time to write your first piece of code! Enter the folowing lines of code into IDLE and save your file.<br>
+<br>
+
+print "Hello World!"
+<br>
+<br>
+Once you've saved your file press "F5" or select "Run" from the options at the top of the screen and click on "Run Module" to run the code you've just written.<br>
+Assuming you've written everything correctly you should see "Hello World!" written in your console.<br>
+<br>
+<img src = "Images/HelloWorld.png"  width = "400" height = "400">
+<br>
+
+There you have it, you've successfully written your first piece of Python code. It may seem simple at the moment however as you write more code in the future the "print" statement will become one of your most used lines of code with it being perfect for tracking progress through your codes execution or debugging code and fixing errors.<br>
+<br>
+
+Follow on to the next tutorial for an introduction to <a>variables and functions.</a>
+</p>
+
+<canvas id = "ContentCanvas" width = screen.width height = 1500 style="border:1px solid #000000;">
+</canvas>
+
+</div>
+
+
+
+</body>
+</html>
