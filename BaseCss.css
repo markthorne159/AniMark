@@ -1,3 +1,18 @@
+.Content{
+	position: absolute;
+	z-index: 1;
+	margin-left: 310px;
+	margin-top: 60px;
+}
+
+#ContentCanvas{
+	margin-left: 300px;
+	margin-top: 50px;
+	z-index: 10;
+	width: 50%;
+	height: 100%;
+}
+
 #Title{
 	font-size: 100px;
 	font-family: Arial;
